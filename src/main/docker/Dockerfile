@@ -10,6 +10,8 @@ WORKDIR /usr/local/tomcat/webapps/
 
 COPY fleetman1.war .
 
+RUN mv fleetman1.war ROOT.war
+
 ENV JAVA_OPTS="-Dspring.profiles.active=docker-demo"
 
 CMD ["catalina.sh", "run"]
