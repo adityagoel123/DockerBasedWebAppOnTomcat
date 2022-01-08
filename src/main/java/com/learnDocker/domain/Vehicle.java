@@ -1,4 +1,4 @@
-package com.virtualpairprogrammers.domain;
+package com.learnDocker.domain;
 
 import java.math.BigDecimal;
 import java.util.Date;

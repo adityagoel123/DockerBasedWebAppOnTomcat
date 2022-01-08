@@ -1,4 +1,4 @@
-package com.virtualpairprogrammers;
+package com.learnDocker;
 
 import java.util.Arrays;
 
@@ -12,8 +12,8 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.virtualpairprogrammers.data.VehicleRepository;
-import com.virtualpairprogrammers.domain.Vehicle;
+import com.learnDocker.data.VehicleRepository;
+import com.learnDocker.domain.Vehicle;
 
 /**
  * Used to ensure that the necessary data is pre-populated.

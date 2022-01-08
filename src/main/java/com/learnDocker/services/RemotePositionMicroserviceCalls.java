@@ -1,11 +1,11 @@
-package com.virtualpairprogrammers.services;
+package com.learnDocker.services;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.virtualpairprogrammers.controllers.Position;
+import com.learnDocker.controllers.Position;
 
 @FeignClient(name="fleetman-position-tracker")
 public interface RemotePositionMicroserviceCalls 

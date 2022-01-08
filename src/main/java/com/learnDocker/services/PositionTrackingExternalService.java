@@ -1,12 +1,12 @@
-package com.virtualpairprogrammers.services;
+package com.learnDocker.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
-import com.virtualpairprogrammers.controllers.Position;
-import com.virtualpairprogrammers.data.VehicleRepository;
-import com.virtualpairprogrammers.domain.Vehicle;
+import com.learnDocker.controllers.Position;
+import com.learnDocker.data.VehicleRepository;
+import com.learnDocker.domain.Vehicle;
 
 @Service 
 public class PositionTrackingExternalService 

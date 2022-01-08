@@ -1,9 +1,12 @@
-package com.virtualpairprogrammers.controllers;
+package com.learnDocker.controllers;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.learnDocker.data.VehicleRepository;
+import com.learnDocker.domain.Vehicle;
+import com.learnDocker.services.PositionTrackingExternalService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.simp.SimpMessageSendingOperations;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -14,10 +17,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
-
-import com.virtualpairprogrammers.data.VehicleRepository;
-import com.virtualpairprogrammers.domain.Vehicle;
-import com.virtualpairprogrammers.services.PositionTrackingExternalService;
 
 @Controller
 @Transactional

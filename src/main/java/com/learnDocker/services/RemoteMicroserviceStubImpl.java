@@ -1,4 +1,4 @@
-package com.virtualpairprogrammers.services;
+package com.learnDocker.services;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -6,7 +6,7 @@ import java.math.RoundingMode;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
-import com.virtualpairprogrammers.controllers.Position;
+import com.learnDocker.controllers.Position;
 
 @Profile({"development","docker-demo"})
 @Service

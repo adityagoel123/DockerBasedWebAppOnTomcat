@@ -1,8 +1,8 @@
-package com.virtualpairprogrammers.data;
+package com.learnDocker.data;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.virtualpairprogrammers.domain.Vehicle;
+import com.learnDocker.domain.Vehicle;
 
 public interface VehicleRepository extends JpaRepository<Vehicle, Long>
 {
